@@ -6,6 +6,7 @@ body{
     height: 100vh;
     overflow: auto;
     padding-bottom: 500px;
+    font-family: Ubuntu, sans-serif, arial;
 }
 
 #Main-page{
@@ -84,16 +85,17 @@ li{
 }
 
 .icon-text-wrapper p {
-    margin: 0; 
+    margin: 0;
 }
 
 #IconsContainer p {
     font-size:70%;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Ubuntu, sans-serif, arial;
 }
 
 #Titulo {
+    font-weight: 100;
     position: absolute;
     top: 40%; /* Posiciona o topo do elemento no meio do container pai */
     left: 60%; /* Posiciona a esquerda do elemento no meio do container pai */
@@ -101,7 +103,7 @@ li{
     z-index: 4; /* Coloca o elemento acima dos outros elementos */
     color: #ffff; /* Define a cor do texto como branco */
     text-align: left; /* Centraliza o texto horizontalmente */
-    width: 100%; /* Define a largura do elemento como 100% do container pai */
+    width: 90%; /* Define a largura do elemento como 100% do container pai */
     font-size: 200%;
 }
 
@@ -110,3 +112,6 @@ li{
     z-index: 3; /* Certifica-se de que o conteúdo fica abaixo do elemento com o ID "Titulo" */
 }
 
+#Titulo h2{
+    font-weight: 100;
+}
