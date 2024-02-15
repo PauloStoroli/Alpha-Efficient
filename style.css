@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: rgb(182, 182, 182);
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+    padding-bottom: 500px;
+}
+
+#Main-page{
+    background-color: #F0F0F0;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.quadrado{
+    width: 75%;
+    height: 50rem;
+    background-color: #510303;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+ .overlay-square {
+    position: absolute;
+    top: 100%;
+    left: 7%;
+    width: 78%; /* Ocupa toda a largura do container */
+    height: 20%; /* Metade da altura do container */
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    transform: translateY(-50%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+
+  .Imagem{
+    position: absolute;
+    top: 3%;
+    left: 54%;
+    width: 800px;
+    height: 700px;
+    z-index: 3;
+}
+
+ul{
+    z-index: 2;
+    position: relative;
+    float: right;
+    list-style: none;
+    display: flex;
+}
+
+li{
+    position: relative;
+    display: inline-block;
+    margin: -15px 55px;
+    padding: 25px;
+    font-size: 150%;
+}
+
+#IconsContainer {
+    display: flex;
+    justify-content: space-evenly; /* Espaçamento igual entre os elementos */
+    align-items: center; /* Alinhamento vertical */
+    margin: -90px 150px;
+    padding: 30px;
+    font-size: 150%;
+}
+
+.icon-text-wrapper {
+    display: inline-block;
+    text-align: center;
+    z-index: 2;
+}
+
+.icon-text-wrapper img {
+    margin-bottom: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+.icon-text-wrapper p {
+    margin: 0; 
+}
+
+#IconsContainer p {
+    font-size:70%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Titulo {
+    position: absolute;
+    top: 40%; /* Posiciona o topo do elemento no meio do container pai */
+    left: 60%; /* Posiciona a esquerda do elemento no meio do container pai */
+    transform: translate(-50%, -50%); /* Move o elemento de volta em 50% da sua própria largura e altura, para centralizá-lo */
+    z-index: 4; /* Coloca o elemento acima dos outros elementos */
+    color: #ffff; /* Define a cor do texto como branco */
+    text-align: left; /* Centraliza o texto horizontalmente */
+    width: 100%; /* Define a largura do elemento como 100% do container pai */
+    font-size: 200%;
+}
+
+#PaginaInicial {
+    position: relative; /* Adiciona posição relativa ao container pai */
+    z-index: 3; /* Certifica-se de que o conteúdo fica abaixo do elemento com o ID "Titulo" */
+}
+
