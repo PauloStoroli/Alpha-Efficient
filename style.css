@@ -115,3 +115,20 @@ li{
 #Titulo h2{
     font-weight: 100;
 }
+
+#Sobre h1{
+    padding-top: 20rem;
+    font-size: 40px;
+    margin-left: 100px;
+    word-wrap: break-word;
+    z-index: 4;
+}
+
+#Sobre img{
+    height: 60rem;
+    background-color: #510303;
+    margin: -20rem;
+    margin-left: 45%;
+    margin-top: -16,5%;
+}
+
