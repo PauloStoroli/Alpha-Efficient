@@ -117,11 +117,14 @@ li{
 }
 
 #Sobre h1{
-    padding-top: 20rem;
-    font-size: 40px;
+    padding-top: 22rem;
+    margin-left: 1rem;
+    font-size: 42px;
     margin-left: 100px;
     word-wrap: break-word;
+    position: relative;
     z-index: 4;
+    top: 7rem;
 }
 
 #Sobre img{
@@ -129,6 +132,14 @@ li{
     background-color: #510303;
     margin: -20rem;
     margin-left: 45%;
-    margin-top: -16,5%;
+    margin-top: -30%;
 }
 
+.container2 .quadrado {
+    height: 63rem;
+    position: relative;
+    width: 72%;
+    margin-top: -41rem;
+    background-color: #F0F0F0;
+    z-index: 3;
+}
